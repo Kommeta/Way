@@ -1,0 +1,161 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.contanier {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: rgb(77, 190, 254);
+  background: linear-gradient(
+    124deg,
+    rgba(77, 190, 254, 1) 0%,
+    rgba(55, 143, 217, 1) 100%
+  );
+  padding-top: 60px;
+  color: #ffff;
+  padding-bottom: 64px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+  height: 100%;
+}
+.offer {
+  margin-top: 140px;
+}
+.title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 37px;
+  font-weight: bold;
+  width: 580px;
+  line-height: 1.5em;
+}
+.title span {
+  font-size: 59px;
+}
+.intro {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 410px;
+  line-height: 1.6em;
+}
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  background: #ffd429;
+  color: #2e2a1b;
+  text-decoration: none;
+  display: block;
+  width: 220px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: #fae07b;
+}
+.section-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #201b2d;
+  text-align: center;
+}
+.learn {
+  padding-top: 100px;
+  padding-bottom: 115px;
+}
+.skills {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  color: #201b2d;
+}
+.skill {
+  background: url("../img/icons-time-machine.png") no-repeat center top;
+  padding-top: 95px;
+  width: 300px;
+  text-align: center;
+  max-height: 172px;
+}
+
+.skill-title {
+  font-size: 19px;
+  margin-top: 10px;
+}
+.skill-text {
+  font-size: 15px;
+  line-height: 1.3em;
+}
+.skill-rest {
+  background: url("../img/icons-beach.png") no-repeat center top;
+}
+.skill-target {
+  background: url("../img/icon-launch.png") no-repeat center top;
+}
+.mail {
+  background: #ecf3f8;
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+.form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 344px;
+  border: 1px solid #bbbbbb;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+  height: 46px;
+
+  margin-bottom: 16px;
+}
+.form-btn {
+  border: none;
+  cursor: pointer;
+  width: 344px;
+}
+.footer {
+  background: #164d7a;
+  padding: 53px 0;
+}
+.credits {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #ffff;
+  text-align: center;
+}
