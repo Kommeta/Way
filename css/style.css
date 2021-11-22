@@ -40,14 +40,13 @@ h6 {
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   width: 100px;
   height: 100%;
 }
-.offer {
-  margin-top: 140px;
-}
+
 .title {
   font-family: "Ubuntu", sans-serif;
   font-size: 37px;
@@ -104,7 +103,7 @@ h6 {
 .skill {
   background: url("../img/icons-time-machine.png") no-repeat center top;
   padding-top: 95px;
-  width: 300px;
+  width: 289px;
   text-align: center;
   max-height: 172px;
 }
