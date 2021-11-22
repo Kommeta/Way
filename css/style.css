@@ -158,3 +158,133 @@ h6 {
   color: #ffff;
   text-align: center;
 }
+
+/*Responsive*/
+
+/* 992 - 1200 */
+@media screen and (max-width: 1200px) {
+  .contanier {
+    width: 960px;
+  }
+  .offer {
+    width: 50%;
+  }
+  .desktop {
+    width: 50%;
+  }
+}
+
+/* 768 - 992 */
+@media screen and (max-width: 992px) {
+  .contanier {
+    width: 720px;
+  }
+  .header {
+    padding-bottom: 0;
+  }
+  .wrapper {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .offer {
+    width: 100%;
+  }
+  .desktop {
+    width: 100%;
+  }
+  .logo {
+    width: 80px;
+    height: 100%;
+  }
+  .learn {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .skill {
+    background: url(../img/icons-time-machine.png) no-repeat left center;
+    width: 90%;
+    text-align: left;
+    padding: 0 0 0 110px;
+    margin: 20px 0;
+  }
+  .skill-rest {
+    background: url("../img/icons-beach.png") no-repeat left center;
+  }
+  .skill-target {
+    background: url("../img/icon-launch.png") no-repeat left center;
+  }
+}
+
+/* 576 - 768 */
+@media screen and (max-width: 768px) {
+  .contanier {
+    width: 540px;
+    margin: 0 auto;
+  }
+}
+
+/* 0 - 576 */
+@media screen and (max-width: 576px) {
+  .contanier {
+    width: 90%;
+  }
+  .logo {
+    width: 50px;
+    height: 100%;
+  }
+  .title {
+    width: 100%;
+    font-size: 31px;
+    text-align: center;
+  }
+  .title span {
+    font-size: 40px;
+  }
+  .intro {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 21px;
+  }
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .skill {
+    background: url(../img/icons-time-machine.png) no-repeat top center;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    padding: 100px 0;
+    margin: 10px 0;
+  }
+  .skill-rest {
+    background: url("../img/icons-beach.png") no-repeat top center;
+  }
+  .skill-target {
+    background: url("../img/icon-launch.png") no-repeat top center;
+  }
+  .mail {
+    padding: 30px 0 50px 0;
+  }
+  .form {
+    margin-top: 30px;
+  }
+  .input {
+    width: 100%;
+  }
+  .footer {
+    padding: 30px 0;
+  }
+}
